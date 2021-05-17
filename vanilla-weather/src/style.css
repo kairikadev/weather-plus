@@ -1,0 +1,18 @@
+body{
+    font-family: arial, sans-serif;
+}
+.weather-app{
+    width: 600px;
+    margin:30px auto;
+    padding:20px;
+    border:1px solid #dadde1;
+    border-radius: 5px;
+}
+h1{
+    color: #878787;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28.8px;
+    height: 27.7778px;
+    text-align: left;
+}
