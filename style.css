@@ -40,25 +40,40 @@ html {
 }
 
 body{
-    background: linear-gradient(109.6deg, rgb(61, 237, 253) 44.2%, rgb(3, 136, 238) 95.6%);
+   background-color: aliceblue; 
+   font-family: Arial, Helvetica, sans-serif;
     
 }
 header{
     text-align:center;
 }
+
 h1{
  color: #272044;
  font-size: 30px;
  }
+
+ .weather-application {
+    width: 600px;
+    margin:30px auto;
+    padding:20px;
+    border:1px solid #dadde1;
+    border-radius: 5px; 
+    background: linear-gradient(109.6deg, rgb(61, 237, 253) 44.2%, rgb(3, 136, 238) 95.6%);
+ }
+
  #date{
      font-size: 0.8em;
  }
+
 .current-temperature{
     margin-top: 50px;
 }
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    margin-top: 0;
 }
 .change-unit{
     display: flex;
@@ -76,6 +91,7 @@ h1{
       background-color: transparent;
       border-style: none;
       padding:10px;
+      margin-top: 0;
   }  
 
 #celsius:hover,#fahrenheit:hover{
@@ -97,11 +113,13 @@ h1{
     
 }
 form {
-    padding-left: 30px;
-    padding-top: 30px;
-    text-transform: capitalize;
-    
+    padding-left: px;
+    padding-top: 10px;
+    margin-left: 0;
+}
 
+p {
+    margin: 0;
 }
 #description {
     text-align:center;
@@ -116,11 +134,11 @@ form {
     flex-direction: row;
     cursor: pointer;
     /*background-color: #93efed;*/
-    padding: 15px 30px;
+    padding: 0 ;
 
     border-radius: 15px;
-    color:#524a79;
-    background-color: rgba(255,255,255,0.3);
+   /* color:#524a79;
+    background-color: rgba(255,255,255,0.3);*/
        
 }
 .weekdays:hover{
@@ -139,13 +157,13 @@ form {
     flex-direction: row;
     padding-top: 50px;
 }
-.forecast-degrees{
-    font-weight: bold;
-}
+
+
 .location{
     display:block;
     margin:0 auto;
-    margin-top: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color:#3f3697;
     color:whitesmoke;
     border-radius: 5px;

@@ -21,6 +21,10 @@
    let temperature = Math.round(response.data.main.temp);
    let degrees=document.querySelector("#degrees-number");
    degrees.innerHTML = `${temperature} &#176;`;
+   let humidityElement = document.querySelector("#humidity");
+    let windElement = document.querySelector("#wind");
+    windElement.innerHTML =Math.round(response.data.wind.speed);
+    humidityElement.innerHTML = response.data.main.humidity;
    let weatherDescription = response.data.weather[0].description;
    let description= document.querySelector("#description");
    description.innerHTML = weatherDescription;

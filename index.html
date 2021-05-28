@@ -22,8 +22,8 @@
             <input type="search" id="city-input" placeholder="search">
             <input type="submit" value="Go">
         </form>
-          
-          <div class="change-unit">
+        <button class="location"><i class="fas fa-map-marker-alt"></i></button>
+        <div class="change-unit">
             <button><span id="celsius">&#176;C</span></button>
             <button><span id="fahrenheit">&#176;F</span></button>
           </div>
@@ -33,7 +33,7 @@
             <p><span id="date"> 27/04/2021</p></span>
         </header>
         <div class="current-temperature">
-            <p class="degrees"><i class="fas fa-sun sun-icon"></i></p>
+            <p class="degrees"><i id="fas fa-sun sun-icon"></i></p>
             
             <p class="degrees">
                 <span id="degrees-number">23</span>
@@ -44,41 +44,45 @@
                 Sunny
             </p>
         </div>
+        <div> Humidity: <span id="humidity"> </span>%
+            Wind :<span id="wind"></span>km/h </div>
+        
         
         <section class="forecast">
             <div class="weekdays">
                 <p>Fri</p>
-                <br>
+               
                 <p><i class="fas fa-sun tiny-sun"></i></p>
-                <span class="forecast-degrees"><p>17/21</p></span>
+                <span class="forecast-degrees-min">17 </span>
+                <span class="forecast-degrees-max"><strong>20</strong></span>
             </div>
             <div class=" weekdays">
                 <p>Sat</p>
-                <br>
+               
                 <p><i class="fas fa-sun tiny-sun"></i></p>
                 <span class="forecast-degrees"><p>17/23</p></span>
             </div>
             <div class="weekdays">
                 <p>Sun</p>
-                <br>
+               
                 <p><i class="fas fa-cloud-sun cloudy"></i></p>
                 <span class="forecast-degrees"><p>16/20</p></span>
             </div>
             <div class="weekdays">
                 <p>Mon</p>
-                <br>
+                
                 <p><i class="fas fa-cloud-sun cloudy"></i></p>
                 <span class="forecast-degrees"><p>16/20</p></span>
             </div>
             <div class="weekdays">
                 <p>Tue</p>
-                <br>
+                
                 <p><i class="fas fa-cloud-sun cloudy"></i></p>
                 <span class="forecast-degrees"><p>16/20</p></span>
             </div>
             
         </section>
-        <button class="location">Your Location</button>
+        
        <p ><a href="https://github.com/kairikadev/weather-plus">open-source code</a>, by Kairika Vakker</p>
         
      </div>
