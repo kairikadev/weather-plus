@@ -33,13 +33,17 @@
             <p><span id="date"> 27/04/2021</p></span>
         </header>
         <div class="current-temperature">
-            <p class="degrees"><i id="fas fa-sun sun-icon"></i></p>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+            alt="sunny" 
+            class="icon" 
+            id="icon"/>
             
             <p class="degrees">
                 <span id="degrees-number">23</span>
                 <!--<span id="celsius">&#176;C</span>
                 <span id="fahrenheit">&#176;F</span>-->
-            </p>
+            </p></div>
+            <div>
             <p id="description">
                 Sunny
             </p>
@@ -49,14 +53,16 @@
         
         
         <section class="forecast">
-            <div class="weekdays">
-                <p>Fri</p>
-               
-                <p><i class="fas fa-sun tiny-sun"></i></p>
+            <div class="weekdays" id="weekdays">
+                <div class="forecast-day">Fri</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+                width="42"/>
+                <div class="forecast-temperatures">
                 <span class="forecast-degrees-min">17 </span>
                 <span class="forecast-degrees-max"><strong>20</strong></span>
             </div>
-            <div class=" weekdays">
+            </div>
+           <!-- <div class=" weekdays">
                 <p>Sat</p>
                
                 <p><i class="fas fa-sun tiny-sun"></i></p>
@@ -79,7 +85,7 @@
                 
                 <p><i class="fas fa-cloud-sun cloudy"></i></p>
                 <span class="forecast-degrees"><p>16/20</p></span>
-            </div>
+            </div>-->
             
         </section>
         

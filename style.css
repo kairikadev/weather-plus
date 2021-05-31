@@ -53,6 +53,24 @@ h1{
  font-size: 30px;
  }
 
+button{
+    background-color: transparent;
+    border-style: none;
+    padding:10px;
+    margin-top: 0;
+} 
+form {
+    padding-left: px;
+    padding-top: 10px;
+    margin-left: 0;
+} 
+p {
+    margin: 0;
+}
+img {
+    text-align: center;
+}
+
  .weather-application {
     width: 600px;
     margin:30px auto;
@@ -68,6 +86,8 @@ h1{
 
 .current-temperature{
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-bar{
@@ -87,21 +107,14 @@ h1{
     
 }
 
-  button{
-      background-color: transparent;
-      border-style: none;
-      padding:10px;
-      margin-top: 0;
-  }  
+  
 
 #celsius:hover,#fahrenheit:hover{
     color: blueviolet;
     background-color:#ccf2f4 ;
 }
 
-.sun-icon{
-    font-size: 50px;
-    color: yellow;
+#icon{
     justify-content: center;
     display:flex;
     
@@ -112,17 +125,9 @@ h1{
     display: flex;
     
 }
-form {
-    padding-left: px;
-    padding-top: 10px;
-    margin-left: 0;
-}
 
-p {
-    margin: 0;
-}
 #description {
-    text-align:center;
+    
     text-transform: capitalize;
 }
 
