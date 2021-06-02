@@ -29,12 +29,12 @@ function displayForecast(response){
   let forecastElement = document.querySelector(".forecast");
   
   let forecast = response.data.daily;
-  let forecastHTML = `<div class="row">`;
+  let forecastHTML = ``;
  
   forecast.forEach(function(forecastDay, index){
       if(index < 5){
       forecastHTML = forecastHTML +
-      `<div class="weekdays" id="weekdays">
+      `
         <div class="col-2">  
             <div class="forecast-day">${formatDay(forecastDay.dt)}</div> 
               <img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" 
