@@ -70,6 +70,13 @@ p {
 img {
     text-align: center;
 }
+.link {
+    
+    margin-left: 255px;
+}
+#humidity , #wind {
+    font-weight: bolder;
+}
 
  .weather-application {
     width: 600px;
@@ -131,26 +138,6 @@ img {
     text-transform: capitalize;
 }
 
-.tiny-sun{
-    color: yellow;
-}
-.weekdays{
-    display: flex;
-    flex-direction: row ;
-    cursor: pointer;
-    padding: 0 ;
-    border-radius: 15px;
-   /* color:#524a79;
-    background-color: rgba(255,255,255,0.3);*/
-       
-}
-.weekdays:hover{
-    color:#6930c3;
-    transform: scale(1.2);
-    transition: 200ms;
-
-}
-
 .forecast {
     /*text-align: center !important;*/
     display: flex;
@@ -158,6 +145,7 @@ img {
     align-items: center;
     flex-direction: row;
     padding-top: 50px; 
+    cursor: pointer;
     
 } 
 

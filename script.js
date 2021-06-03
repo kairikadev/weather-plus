@@ -40,8 +40,8 @@ function displayForecast(response){
               <img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" 
               width="42"/>
              <div class="forecast-temperatures">
-                 <span class="forecast-degrees-min">${Math.round(forecastDay.temp.max)}</span>
-                 <span class="forecast-degrees-max">${Math.round(forecastDay.temp.min)}</span>
+                 <span class="forecast-degrees-max"><strong>${Math.round(forecastDay.temp.max)}</strong></span>
+                 <span class="forecast-degrees-min">${Math.round(forecastDay.temp.min)}</span>
              </div> 
              </div>
              </div>
