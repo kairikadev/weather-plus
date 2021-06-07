@@ -112,32 +112,32 @@ function formatDate(){
   date.innerHTML= `${day},${hours}:${minutes}`;
 }
  
-let fahrenheitButton = document.getElementById("fahrenheit");
-fahrenheitButton.addEventListener("click", () => {
-  let degreesNumberElement = document.getElementById("degrees-number");
-  let degreesNumber = degreesNumberElement.innerHTML;
-  let degreesNumberInF = convertToF(degreesNumber);
-  degreesNumberElement.innerHTML = degreesNumberInF;
+//let fahrenheitButton = document.getElementById("fahrenheit");
+//fahrenheitButton.addEventListener("click", () => {
+  //let degreesNumberElement = document.getElementById("degrees-number");
+  //let degreesNumber = degreesNumberElement.innerHTML;
+  //let degreesNumberInF = convertToF(degreesNumber);
+  //degreesNumberElement.innerHTML = degreesNumberInF;
   //alert(degreesNumberInF);
-});
+//});
  
-let celsiusButton = document.getElementById("celsius");
-celsiusButton.addEventListener("click",() => {
-  let degreesNumberElement = document.getElementById("degrees-number");
-  let degreesNumber = degreesNumberElement.innerHTML;
-  let degreesNumberInC = convertToC(degreesNumber);
-  degreesNumberElement.innerHTML = degreesNumberInC;
-});
+//let celsiusButton = document.getElementById("celsius");
+//celsiusButton.addEventListener("click",() => {
+  //let degreesNumberElement = document.getElementById("degrees-number");
+  //let degreesNumber = degreesNumberElement.innerHTML;
+  //let degreesNumberInC = convertToC(degreesNumber);
+ // degreesNumberElement.innerHTML = degreesNumberInC;
+//});
 
-function convertToC(fahrenheit) {
-  let celsius= (fahrenheit-32)*5/9
-  return celsius;
-}
+//function convertToC(fahrenheit) {
+  //let celsius= (fahrenheit-32)*5/9
+  //return celsius;
+//}
 
-function convertToF(celsius) {
-  let fahrenheit= celsius* 9/5+32
-  return fahrenheit;
-}
+//function convertToF(celsius) {
+  //let fahrenheit= celsius* 9/5+32
+  //return fahrenheit;
+//}
 
 let locationButton = document.querySelector(".location");
 locationButton.addEventListener("click", getForecastForCurrentLocation);

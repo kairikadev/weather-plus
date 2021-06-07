@@ -102,7 +102,7 @@ img {
     justify-content: space-between;
     margin-top: 0;
 }
-.change-unit{
+/*.change-unit{
     display: flex;
     justify-content: flex-end;
     border: none;
@@ -119,7 +119,7 @@ img {
 #celsius:hover,#fahrenheit:hover{
     color: blueviolet;
     background-color:#ccf2f4 ;
-}
+}*/
 
 #icon{
     justify-content: center;
